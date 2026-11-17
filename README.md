@@ -19,25 +19,4 @@ Sharp Jack is a single-player classic Blackjack game written in C# with MonoGame
 - **States** connects the MonoGame loop and keyboard input to the active hand and table view.
 - **View** draws the deck and both hands using the existing card art. **Utilities** loads and caches textures built from the MonoGame **Content** project.
 
-## Build and run
 
-Install the .NET 9 SDK and use a desktop environment that supports MonoGame DesktopGL. Run the following from the repository root:
-
-```sh
-dotnet build project/monogame-project.csproj
-dotnet run --project project/monogame-project.csproj
-```
-
-The build restores the MonoGame packages and local content tools and compiles the textures in `project/Content/Content.mgcb`.
-
-Run the dependency-free rules checks with:
-
-```sh
-dotnet run --project tests/Blackjack.Tests.csproj
-```
-
-## Development status
-
-The desktop build supports repeated hands with Hit, Stand, natural Blackjack, busts, and win, loss, or push outcomes. Hands currently have no wagers. Chip denominations, starting balance, wager limits, and payouts are pending approval.
-
-Future work includes betting and chip displays once the rules are agreed, followed by table layout and controls. The long-term goal is to support both desktop and mobile platforms.
