@@ -10,7 +10,6 @@ Sharp Jack is a single-player classic Blackjack game written in C# with MonoGame
 - An opening two-card 21 is a natural Blackjack. If either participant has a natural, the hand resolves immediately. Two naturals push.
 - Press **H** to hit or **S** to stand. Hitting to 21 ends the player's turn. Going over 21 loses the hand immediately.
 - The dealer hits below 17 and stands on every 17 or higher, including soft 17. A dealer bust gives the player a win if the player has already completed their turn without busting. Otherwise the higher total wins, and equal totals push.
-- The window title shows the visible totals, the result, and the available controls. After a result, press **Enter** to deal again or **R** to leave and rejoin with a full deck. If the remaining cards cannot cover a full hand, use **R** to continue. Press **Esc** to exit the game.
 
 ## Architecture
 
