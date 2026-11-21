@@ -1,0 +1,20 @@
+{
+  "menu.title": "Sharp Jack",
+  "menu.play": "Play",
+  "menu.settings": "Settings",
+  "menu.exit": "Exit",
+  "settings.title": "Settings",
+  "settings.language": "Language",
+  "settings.musicVolume": "Volume",
+  "settings.soundVolume": "Sound effects",
+  "settings.fullscreen": "Fullscreen",
+  "common.back": "Back",
+  "common.apply": "Apply",
+  "common.cancel": "Cancel",
+  "common.confirm": "Confirm",
+  "common.yes": "Yes",
+  "common.no": "No",
+  "common.on": "On",
+  "common.off": "Off",
+  "exit.title": "Exit game"
+}

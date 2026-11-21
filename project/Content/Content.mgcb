@@ -13,6 +13,11 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Fonts/Menu.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/build:Fonts/Menu.spritefont
+
 #begin Main_Cards/Ace_Clubs.png
 /importer:TextureImporter
 /processor:TextureProcessor
